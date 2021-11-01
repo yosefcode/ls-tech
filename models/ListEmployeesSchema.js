@@ -6,8 +6,8 @@ const EmployeeSchema = new mongoose.Schema({
   phone: String,
   address: String,
   roll: String,
-  startDate: String,
   img: String,
+  startDate: { type: String, default: Date },
 });
 
 const Employee = mongoose.model("Employees", EmployeeSchema);
@@ -18,7 +18,6 @@ const employee1 = new Employee({
   phone: "050 9876543",
   address: "Rothschild 22, Tel Aviv",
   roll: "HR",
-  startDate: "2 Feb 2020",
   img: "https://randomuser.me/api/portraits/med/men/36.jpg",
 });
 const employee2 = new Employee({
@@ -27,7 +26,6 @@ const employee2 = new Employee({
   phone: "050 9876543",
   address: "Rothschild 22, Tel Aviv",
   roll: "HR",
-  startDate: "2 Feb 2020",
   img: "https://randomuser.me/api/portraits/med/women/15.jpg",
 });
 const employee3 = new Employee({
@@ -36,7 +34,6 @@ const employee3 = new Employee({
   phone: "050 9876543",
   address: "Rothschild 22, Tel Aviv",
   roll: "HR",
-  startDate: "2 Feb 2020",
   img: "https://randomuser.me/api/portraits/med/women/22.jpg",
 });
 const employee4 = new Employee({
@@ -45,7 +42,6 @@ const employee4 = new Employee({
   phone: "050 9876543",
   address: "Rothschild 22, Tel Aviv",
   roll: "HR",
-  startDate: "2 Feb 2020",
   img: "https://randomuser.me/api/portraits/med/men/16.jpg",
 });
 const employee5 = new Employee({
@@ -54,7 +50,6 @@ const employee5 = new Employee({
   phone: "050 9876543",
   address: "Rothschild 22, Tel Aviv",
   roll: "HR",
-  startDate: "2 Feb 2020",
   img: "https://randomuser.me/api/portraits/med/women/15.jpg",
 });
 const employee6 = new Employee({
@@ -63,7 +58,6 @@ const employee6 = new Employee({
   phone: "050 9876543",
   address: "Rothschild 22, Tel Aviv",
   roll: "HR",
-  startDate: "2 Feb 2020",
   img: "https://randomuser.me/api/portraits/med/men/32.jpg",
 });
 const employee7 = new Employee({
@@ -72,7 +66,6 @@ const employee7 = new Employee({
   phone: "050 9876543",
   address: "Rothschild 22, Tel Aviv",
   roll: "HR",
-  startDate: "2 Feb 2020",
   img: "https://randomuser.me/api/portraits/med/men/6.jpg",
 });
 const employee8 = new Employee({
@@ -81,7 +74,6 @@ const employee8 = new Employee({
   phone: "050 9876543",
   address: "Rothschild 22, Tel Aviv",
   roll: "HR",
-  startDate: "2 Feb 2020",
   img: "https://randomuser.me/api/portraits/med/women/5.jpg",
 });
 const employee9 = new Employee({
@@ -90,7 +82,6 @@ const employee9 = new Employee({
   phone: "050 9876543",
   address: "Rothschild 22, Tel Aviv",
   roll: "HR",
-  startDate: "2 Feb 2020",
   img: "https://randomuser.me/api/portraits/med/women/25.jpg",
 });
 const employee10 = new Employee({
@@ -99,7 +90,6 @@ const employee10 = new Employee({
   phone: "050 9876543",
   address: "Rothschild 22, Tel Aviv",
   roll: "HR",
-  startDate: "2 Feb 2020",
   img: "https://randomuser.me/api/portraits/med/men/12.jpg",
 });
 

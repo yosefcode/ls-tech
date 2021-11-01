@@ -31,6 +31,8 @@ export default function ListEmployees() {
     setEmployee([employee]);
   };
 
+  const date = { year: "numeric", month: "short", day: "numeric" };
+
   return (
     <div className="list-employees">
       <div className="header">
@@ -78,7 +80,9 @@ export default function ListEmployees() {
               <td>{user.phone}</td>
               <td>{user.address}</td>
               <td>{user.roll}</td>
-              <td>{user.startDate}</td>
+              <td>
+                {new Date(user.startDate).toLocaleDateString("en-GB", date)}
+              </td>
               <td>
                 <EditIcon onClick={() => editEmployee(user)} />
               </td>
