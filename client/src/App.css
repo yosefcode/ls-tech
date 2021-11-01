@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  position: relative;
+  width: 1440px;
+}
+
+.App-header {
+  background-color: #ffffff;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+img {
+  margin-left: 35px;
+  width: 131px;
+  height: 38.25px;
+}

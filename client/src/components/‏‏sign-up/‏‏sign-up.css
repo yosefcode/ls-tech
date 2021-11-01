@@ -1,0 +1,113 @@
+.sign-up {
+  margin-top: 73px;
+  height: 1207px;
+}
+.sign-up .div-select {
+  margin: 82px auto 14px;
+  width: 556px;
+  height: 45px;
+  position: relative;
+}
+.sign-up .select-language {
+  float: right;
+  box-sizing: border-box;
+  height: 45px;
+  width: 72px;
+  border: 1px solid #e6eaee;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.sign-up .div-sign {
+  margin: 15px auto 30px;
+  width: 556px;
+  height: 670px;
+  border: 0.5px solid #e6eaee;
+  background-color: #ffff;
+  position: relative;
+}
+.sign-up .div-input {
+  margin: 86px auto 50px;
+  width: 415px;
+}
+.sign-up input {
+  width: 415px;
+  height: 55px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.sign-up h3 {
+  float: left;
+  font-weight: normal;
+}
+
+.sign-up .diviconhiden {
+  position: relative;
+}
+.sign-up .iconhiden {
+  position: absolute;
+  bottom: 5px;
+  right: 2px;
+  cursor: pointer;
+}
+.sign-up .iconhidenHeb {
+  position: absolute;
+  bottom: 5px;
+  left: 2px;
+  cursor: pointer;
+}
+.sign-up .divErr {
+  height: 15px;
+  color: red;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 10px;
+}
+.sign-up .divErrHeb {
+  height: 15px;
+  color: red;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: right;
+  padding-right: 10px;
+}
+.sign-up button {
+  width: 152px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #577bf9;
+  color: #fff;
+  margin: 8px auto 35px;
+  border: none;
+  float: left;
+  cursor: pointer;
+}
+
+.sign-up a {
+  color: #577bf9;
+  font-size: 14px;
+}
+.sign-up .img-personal {
+  box-sizing: border-box;
+  height: 126px;
+  width: 126px;
+  border: 1px solid #e6eaee;
+  background-color: #edf1f7;
+  border-radius: 50%;
+  position: absolute;
+  top: -63px;
+  right: calc(50% - 63px);
+}
+.sign-up .icon-plus {
+  height: 24px;
+  width: 24px;
+  background: linear-gradient(148.81deg, #2555fe 0%, #577bf9 100%);
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 101px;
+  left: 94px;
+}

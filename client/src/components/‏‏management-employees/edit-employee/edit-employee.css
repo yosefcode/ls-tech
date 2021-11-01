@@ -1,0 +1,58 @@
+.add-employee {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.div-addEmployee {
+  height: 521px;
+  width: 566px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: calc(50% - 260px);
+  left: calc(50% - 280px);
+}
+.div-input-addEmployee {
+  height: 445px;
+  width: 400px;
+  margin: 40px auto;
+}
+.add-employee input,
+.add-employee select {
+  height: 48px;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  margin-top: 21px;
+}
+.add-employee h3 {
+  float: left;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding: 0;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+.add-employee button {
+  height: 38px;
+  width: 140px;
+  border-radius: 4px;
+  background-color: #577bf9;
+  margin: 28px calc(50% - 70px);
+}
+.add-employee .close-Icon {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 20px;
+  right: 23px;
+  cursor: pointer;
+}

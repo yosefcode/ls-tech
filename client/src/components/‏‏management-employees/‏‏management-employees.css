@@ -1,0 +1,88 @@
+.list-employees {
+  margin: 65px auto 50px;
+  width: 1179px;
+  position: relative;
+}
+.header {
+  width: 100%;
+  height: 38px;
+  font-family: Helvetica;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-employees button {
+  height: 38px;
+  width: 163px;
+  border-radius: 4px;
+  background-color: #577bf9;
+  color: #fff;
+  border: none;
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.table-list {
+  margin-top: 72px;
+  width: 100%;
+  background-color: #fff;
+  height: 770px;
+  overflow: auto;
+  position: relative;
+}
+table {
+  border-collapse: collapse;
+}
+
+th {
+  height: 49px;
+  text-align: left;
+  color: #8f9bb3;
+  font-family: Heebo;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 16px;
+  border-bottom: 1px solid #edf1f7;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+td {
+  height: 90px;
+  text-align: left;
+  color: #000000;
+  font-family: Heebo;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  border-bottom: 1px solid #edf1f7;
+}
+.list-employees img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.table-list::-webkit-scrollbar {
+  width: 7px;
+}
+
+.table-list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(221, 221, 221);
+  border-radius: 10px;
+  margin: 55px 25px 0 0;
+}
+
+.table-list::-webkit-scrollbar-thumb {
+  /* height: 7px; */
+  /* width: 8px; */
+  border-radius: 4px;
+  background-color: #d8d8d8;
+}

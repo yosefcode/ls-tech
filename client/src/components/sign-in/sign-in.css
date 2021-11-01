@@ -1,0 +1,91 @@
+.sign-in {
+  margin-top: 145px;
+  height: 820px;
+}
+.sign-in .div-select {
+  margin: 95px auto 15px;
+  width: 556px;
+  height: 45px;
+  position: relative;
+}
+.sign-in .select-language {
+  float: right;
+  box-sizing: border-box;
+  height: 45px;
+  width: 72px;
+  border: 1px solid #e6eaee;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.sign-in .div-sign {
+  margin: 15px auto;
+  width: 556px;
+  height: 348px;
+  border: 0.5px solid #e6eaee;
+  background-color: #ffff;
+  position: relative;
+}
+.sign-in .div-input {
+  margin: 85px auto 50px;
+  width: 415px;
+}
+.sign-in input {
+  width: 415px;
+  height: 55px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.sign-in .diviconhiden {
+  position: relative;
+}
+.sign-in .iconhiden {
+  position: absolute;
+  bottom: 5px;
+  right: 2px;
+  cursor: pointer;
+}
+.sign-in .divErr {
+  height: 15px;
+  color: red;
+  line-height: 1vw;
+  font-size: 1vw;
+  font-weight: bold;
+}
+.sign-in button {
+  width: 152px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #577bf9;
+  color: #fff;
+  margin: 15px auto 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-in a {
+  color: #577bf9;
+  font-size: 14px;
+}
+.sign-in .img-personal {
+  box-sizing: border-box;
+  height: 126px;
+  width: 126px;
+  border: 1px solid #e6eaee;
+  background-color: #edf1f7;
+  border-radius: 50%;
+  position: absolute;
+  top: -63px;
+  right: calc(50% - 63px);
+}
+.sign-in .icon-plus {
+  height: 24px;
+  width: 24px;
+  background: linear-gradient(148.81deg, #2555fe 0%, #577bf9 100%);
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 101px;
+  left: 94px;
+}
