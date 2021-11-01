@@ -26,10 +26,10 @@ connectToDb().then(async () => {
   });
 });
 
-app.get("/login/:id", (req, res) => {
+app.get("/list-employees/", (req, res) => {
   res.sendFile(path.join(__dirname, "client/build", "index.html"));
 });
-app.get("/:id", (req, res) => {
+app.get("/sign-up/", (req, res) => {
   res.sendFile(path.join(__dirname, "client/build", "index.html"));
 });
 
