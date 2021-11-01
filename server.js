@@ -32,6 +32,9 @@ app.get("/list-employees/", (req, res) => {
 app.get("/sign-up/", (req, res) => {
   res.sendFile(path.join(__dirname, "client/build", "index.html"));
 });
+app.get("/management-employees/", (req, res) => {
+  res.sendFile(path.join(__dirname, "client/build", "index.html"));
+});
 
 app.get("/api/listEmployees/", listEmployees.list);
 
