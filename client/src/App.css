@@ -5,15 +5,22 @@
   margin: 0 auto;
 }
 
-.App-header {
+.App .App-header {
   background-color: #ffffff;
   height: 61px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+  padding-right: 82px;
+  font-family: Heebo;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.87);
 }
 
-img {
+.App img {
   margin-left: 35px;
   width: 131px;
   height: 38.25px;

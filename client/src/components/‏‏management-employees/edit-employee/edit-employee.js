@@ -3,7 +3,7 @@ import "./edit-employee.css";
 import CloseIcon from "@mui/icons-material/Close";
 import axios from "axios";
 
-export default function ModalAddEmployee({ setModalEdit, employee }) {
+export default function ModalEditEmployee({ setModalEdit, employee }) {
   const newEmployee = {};
 
   const editEmployee = (id) => {

@@ -6,6 +6,7 @@ import axios from "axios";
 export default function ListEmployees() {
   const [modalAdd, setModalAdd] = useState(false);
   const [listEmployees, setListEmployees] = useState([]);
+  const userName = JSON.parse(localStorage.getItem(`userName`)) || [];
 
   useEffect(() => {
     axios.get(`/api/listEmployees/`).then((res) => {
@@ -17,6 +18,11 @@ export default function ListEmployees() {
 
   return (
     <div className="list-employees">
+      <div className="userName">
+        <img src={"https://www.w3schools.com/howto/img_avatar.png"} alt="" />
+        {userName.firstName} {userName.lastName}
+      </div>
+
       <div className="header">
         <h1>Managing Employees</h1>
         <div>

@@ -10,6 +10,8 @@ import ManagementEmployees from "./components/‏‏management-employees/‏‏m
 function App() {
   const [connection, setConnection] = useState([]);
 
+  const userName = JSON.parse(localStorage.getItem(`userName`)) || [];
+
   return (
     <div className="App">
       <Router>

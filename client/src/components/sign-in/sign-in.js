@@ -9,11 +9,14 @@ import axios from "axios";
 export default function SignIn({ setConnection }) {
   const [typepassword, setTypepassword] = useState("password");
   const [errMessage, setErrorMessage] = useState("");
-  // const [connection, setConnection] = useState([]);
   const [enailPassword, setEmailPassword] = useState({
     password: "",
     email: "",
   });
+
+  useEffect(() => {
+    localStorage.removeItem("userName");
+  }, []);
 
   const onchange = (e) => {
     setEmailPassword({
@@ -33,6 +36,14 @@ export default function SignIn({ setConnection }) {
         setErrorMessage("סיסמא שגויה");
       } else {
         setConnection(testPassword);
+        localStorage.setItem(
+          `userName`,
+          JSON.stringify({
+            firstName: testPassword.firstName,
+            lastName: testPassword.lastName,
+          })
+        );
+
         window.location.href = "/list-employees/";
       }
     });
